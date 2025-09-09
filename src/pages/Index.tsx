@@ -1,7 +1,9 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import Services from "@/components/Services";
 import About from "@/components/About";
+import Features from "@/components/Features";
+import Pricing from "@/components/Pricing";
+import Content from "@/components/Content";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -11,8 +13,10 @@ const Index = () => {
       <Header />
       <main className="flex-grow">
         <Hero />
-        <Services />
         <About />
+        <Features />
+        <Pricing />
+        <Content />
         <Contact />
       </main>
       <Footer />
