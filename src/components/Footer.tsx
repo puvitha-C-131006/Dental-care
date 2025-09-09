@@ -1,4 +1,4 @@
-import { Tooth, Phone, Mail, MapPin } from "lucide-react";
+import { Smile, Phone, Mail, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left px-4">
         <div>
           <a href="/" className="flex items-center justify-center md:justify-start gap-2 mb-4">
-            <Tooth className="h-6 w-6 text-white" />
+            <Smile className="h-6 w-6 text-white" />
             <span className="font-bold text-lg text-white">Poonguzhali Dental Care</span>
           </a>
           <p className="text-sm">Your smile, our specialty. © {new Date().getFullYear()}</p>
