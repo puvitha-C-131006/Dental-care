@@ -6,7 +6,7 @@ const About = () => {
           <img
             src="https://images.unsplash.com/photo-1588776814546-da6316ac9154?q=80&w=2070&auto=format&fit=crop"
             alt="Modern Dental Clinic Interior"
-            className="rounded-lg shadow-lg aspect-video object-cover"
+            className="rounded-lg shadow-lg aspect-video object-cover animate-slow-float"
           />
         </div>
         <div className="space-y-4">
