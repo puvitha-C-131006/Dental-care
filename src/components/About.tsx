@@ -4,7 +4,7 @@ const About = () => {
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center px-4">
         <div>
           <img
-            src="https://images.unsplash.com/photo-1629904850761-238bde02a821?q=80&w=1932&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1588776814546-da6316ac9154?q=80&w=2070&auto=format&fit=crop"
             alt="Modern Dental Clinic Interior"
             className="rounded-lg shadow-lg aspect-video object-cover"
           />
