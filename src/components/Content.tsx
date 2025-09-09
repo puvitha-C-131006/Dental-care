@@ -4,17 +4,17 @@ const articles = [
   {
     title: "The Importance of Regular Dental Check-ups",
     description: "Learn why visiting the dentist twice a year is crucial for your overall health.",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=2070&auto=format&fit=crop",
   },
   {
     title: "Tips for a Whiter, Brighter Smile at Home",
     description: "Discover simple, effective ways to maintain a radiant smile between visits.",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1625246302023-7a1f7b454b6a?q=80&w=2070&auto=format&fit=crop",
   },
   {
     title: "Understanding Common Dental Procedures",
     description: "A simple guide to fillings, root canals, and crowns to ease your dental anxiety.",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1606811333358-f070a5b5a9a3?q=80&w=2070&auto=format&fit=crop",
   },
 ];
 

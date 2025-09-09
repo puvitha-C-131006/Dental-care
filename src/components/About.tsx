@@ -4,8 +4,8 @@ const About = () => {
       <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center px-4">
         <div>
           <img
-            src="/placeholder.svg"
-            alt="Dental Clinic"
+            src="https://images.unsplash.com/photo-1629904850761-238bde02a821?q=80&w=1932&auto=format&fit=crop"
+            alt="Modern Dental Clinic Interior"
             className="rounded-lg shadow-lg aspect-video object-cover"
           />
         </div>
@@ -17,6 +17,10 @@ const About = () => {
           <p className="text-muted-foreground">
             We utilize the latest technology and techniques to ensure that your treatment is efficient, effective, and as painless as possible. Your comfort and satisfaction are our top priorities.
           </p>
+          <div className="pt-4">
+            <h3 className="text-xl font-semibold text-primary">Dr. R. Poonguzhali, BDS., F.F.A.</h3>
+            <p className="text-muted-foreground">Lead Dental Specialist</p>
+          </div>
         </div>
       </div>
     </section>

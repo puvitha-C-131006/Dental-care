@@ -15,16 +15,16 @@ const Footer = () => {
           <h3 className="font-semibold text-white mb-4">Contact Us</h3>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center justify-center md:justify-start gap-2">
-              <MapPin className="h-4 w-4" />
-              <span>123 Dental St, Smileville, SV 45678</span>
+              <MapPin className="h-4 w-4 flex-shrink-0" />
+              <span>24-5/9A, TAMS Complex, Narasimman street, Town BSNL Office South Side, Dharmapuri 636701</span>
             </li>
             <li className="flex items-center justify-center md:justify-start gap-2">
               <Phone className="h-4 w-4" />
-              <span>(123) 456-7890</span>
+              <span>04342-451515, 9443936207</span>
             </li>
             <li className="flex items-center justify-center md:justify-start gap-2">
               <Mail className="h-4 w-4" />
-              <span>contact@poonguzhalidental.com</span>
+              <span>poonguzhali.bds@gmail.com</span>
             </li>
           </ul>
         </div>
