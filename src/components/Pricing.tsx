@@ -5,21 +5,21 @@ import { Check } from "lucide-react";
 const pricingTiers = [
   {
     title: "Basic Care",
-    price: "$75",
+    price: "₹1,500",
     frequency: "/visit",
     description: "For routine check-ups and cleanings.",
     features: ["Comprehensive Exam", "Professional Cleaning", "Oral Cancer Screening"],
   },
   {
     title: "Cosmetic Plan",
-    price: "$250",
+    price: "₹10,000",
     frequency: "/treatment",
     description: "For enhancing the beauty of your smile.",
     features: ["Everything in Basic Care", "Professional Teeth Whitening", "Cosmetic Consultation"],
   },
   {
     title: "Family Package",
-    price: "$250",
+    price: "₹8,000",
     frequency: "/month",
     description: "Complete care for the entire family.",
     features: ["Up to 4 Family Members", "All Basic Care Services", "20% off other treatments"],
