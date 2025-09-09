@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const pricingTiers = [
   {
@@ -57,7 +58,7 @@ const Pricing = () => {
               </CardContent>
               <CardFooter>
                 <Button className="w-full" asChild>
-                  <a href="#contact">Book Now</a>
+                  <Link to="/contact">Book Now</Link>
                 </Button>
               </CardFooter>
             </Card>

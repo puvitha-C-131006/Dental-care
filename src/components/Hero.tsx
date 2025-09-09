@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
           Welcome to Poonguzhali Specialist Dental Care, where we provide expert dental solutions with a gentle and caring touch.
         </p>
         <Button size="lg" asChild>
-          <a href="#contact">Book an Appointment</a>
+          <Link to="/contact">Book an Appointment</Link>
         </Button>
       </div>
     </section>
