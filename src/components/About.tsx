@@ -1,14 +1,7 @@
 const About = () => {
   return (
     <section id="about" className="w-full py-12 md:py-24 lg:py-32 bg-muted/40">
-      <div className="container mx-auto px-4 flex flex-col items-center text-center gap-12">
-        <div>
-          <img
-            src="/dental.jpg"
-            alt="Poonguzhali Dental Care Clinic Inauguration"
-            className="rounded-lg shadow-lg max-w-full md:max-w-3xl mx-auto h-auto object-cover"
-          />
-        </div>
+      <div className="container mx-auto px-4 flex flex-col items-center text-center">
         <div className="space-y-4 max-w-3xl">
           <h2 className="text-3xl md:text-4xl font-bold">About Poonguzhali Dental Care</h2>
           <p className="text-muted-foreground">
