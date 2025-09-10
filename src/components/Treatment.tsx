@@ -1,11 +1,11 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Sparkles, Tooth, XRay, Syringe, Crown, Braces } from "lucide-react";
+import { Sparkles, Dental, Radiation, Syringe, Crown, Braces } from "lucide-react";
 
 const treatments = [
   {
-    icon: <Tooth className="h-8 w-8 text-primary" />,
+    icon: <Dental className="h-8 w-8 text-primary" />,
     title: "General Dentistry",
     description: "Routine check-ups, cleanings, fillings, and preventive care to maintain oral health.",
   },
@@ -25,7 +25,7 @@ const treatments = [
     description: "Crowns, bridges, dentures, and implants to restore function and aesthetics of damaged or missing teeth.",
   },
   {
-    icon: <XRay className="h-8 w-8 text-primary" />,
+    icon: <Radiation className="h-8 w-8 text-primary" />,
     title: "Oral Surgery",
     description: "Extractions, wisdom teeth removal, and other surgical procedures when necessary.",
   },
