@@ -1,7 +1,7 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Dental, Tooth, XRay, Syringe, Crown, Braces } from "lucide-react";
+import { Sparkles, Tooth, XRay, Syringe, Crown, Braces } from "lucide-react";
 
 const treatments = [
   {
@@ -10,7 +10,7 @@ const treatments = [
     description: "Routine check-ups, cleanings, fillings, and preventive care to maintain oral health.",
   },
   {
-    icon: <Dental className="h-8 w-8 text-primary" />,
+    icon: <Sparkles className="h-8 w-8 text-primary" />,
     title: "Cosmetic Procedures",
     description: "Teeth whitening, veneers, bonding, and smile makeovers for a brighter, more confident smile.",
   },
