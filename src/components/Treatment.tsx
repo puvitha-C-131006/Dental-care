@@ -1,11 +1,11 @@
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Sparkles, Tooth, Radiation, Syringe, Crown, Braces } from "lucide-react";
+import { Sparkles, ClipboardCheck, Radiation, Syringe, Crown, Braces } from "lucide-react";
 
 const treatments = [
   {
-    icon: <Tooth className="h-8 w-8 text-primary" />,
+    icon: <ClipboardCheck className="h-8 w-8 text-primary" />,
     title: "General Dentistry",
     description: "Routine check-ups, cleanings, fillings, and preventive care to maintain oral health.",
   },
