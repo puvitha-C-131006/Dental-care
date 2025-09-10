@@ -5,7 +5,7 @@ const About = () => {
         <div>
           <img
             src="/dental.jpg"
-            alt="Poonguzhali Dental Care Clinic Inauguration"
+            alt="Poonguzhali Dental Care Clinic"
             className="rounded-lg shadow-lg w-full h-auto object-cover animate-slow-float"
           />
         </div>
