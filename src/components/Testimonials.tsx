@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     name: "A .Rajesh Kumar",
-    avatar: "/placeholder.svg", // Replace with actual image if available
+    avatar: "/rajesh anna.jpg", // Updated to use the new image
     feedback: "I used to dread dental visits, but not anymore. Dr. Poonguzhali and her staff are incredibly gentle and professional. Excellent service!",
   },
   {
