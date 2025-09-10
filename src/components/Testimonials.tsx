@@ -19,16 +19,6 @@ const testimonials = [
     avatar: "/placeholder.svg", // Replace with actual image if available
     feedback: "My kids love coming here! The pediatric care is fantastic, and they make dental health fun. A truly family-friendly clinic.",
   },
-  {
-    name: "K. Priya",
-    avatar: "/placeholder.svg",
-    feedback: "I had a complex procedure, and Dr. Poonguzhali explained everything clearly and performed it flawlessly. Very happy with the results!",
-  },
-  {
-    name: "M. Kumar",
-    avatar: "/placeholder.svg",
-    feedback: "The clinic is modern and clean, and the staff are always welcoming. It's a pleasure to visit for my regular check-ups.",
-  },
 ];
 
 const Testimonials = () => {
