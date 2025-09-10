@@ -6,7 +6,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const testimonials = [
   {
     name: "A .Rajadurai",
-    avatar: "/placeholder.svg", // Changed to placeholder
+    avatar: "/a1.jpg", // Updated to use the new image
     feedback: "The team at Poonguzhali Dental Care is amazing! They made me feel so comfortable and my teeth have never looked better. Highly recommend!",
   },
   {
