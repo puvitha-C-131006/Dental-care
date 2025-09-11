@@ -6,17 +6,17 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const testimonials = [
   {
     name: "A .Rajadurai",
-    avatar: "/a1.jpg", // Updated to use the new image
+    avatar: "/a1.jpg",
     feedback: "The team at Poonguzhali Dental Care is amazing! They made me feel so comfortable and my teeth have never looked better. Highly recommend!",
   },
   {
     name: "A .Rajesh Kumar",
-    avatar: "/f2.jpg", // Changed to placeholder
+    avatar: "/f2.jpg",
     feedback: "I used to dread dental visits, but not anymore. Dr. Poonguzhali and her staff are incredibly gentle and professional. Excellent service!",
   },
   {
     name: "A . saraswathi",
-    avatar: "/placeholder.svg", // Replace with actual image if available
+    avatar: "/amma.jpg",
     feedback: "My kids love coming here! The pediatric care is fantastic, and they make dental health fun. A truly family-friendly clinic.",
   },
 ];
