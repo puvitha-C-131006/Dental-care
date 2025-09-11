@@ -6,12 +6,12 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 const testimonials = [
   {
     name: "A.Rajadurai",
-    avatar: "/a1.jpg",
+    avatar: null, // Image removed as requested
     feedback: "The team at Poonguzhali Dental Care is amazing! They made me feel so comfortable and my teeth have never looked better. Highly recommend!",
   },
   {
     name: "A.Rajesh Kumar",
-    avatar: null, // Image removed as requested
+    avatar: null,
     feedback: "I used to dread dental visits, but not anymore. Dr. Poonguzhali and her staff are incredibly gentle and professional. Excellent service!",
   },
   {
