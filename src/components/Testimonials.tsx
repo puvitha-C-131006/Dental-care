@@ -11,7 +11,7 @@ const testimonials = [
   },
   {
     name: "A.Rajesh Kumar",
-    avatar: "/f3.jpg",
+    avatar: null, // Image removed as requested
     feedback: "I used to dread dental visits, but not anymore. Dr. Poonguzhali and her staff are incredibly gentle and professional. Excellent service!",
   },
   {
@@ -34,7 +34,7 @@ const Testimonials = () => {
             <Card key={index} className="flex flex-col items-center text-center p-6">
               <CardHeader className="pb-4">
                 <Avatar className="h-20 w-20 mb-4">
-                  <AvatarImage src={testimonial.avatar} alt={testimonial.name} />
+                  <AvatarImage src={testimonial.avatar || undefined} alt={testimonial.name} />
                   <AvatarFallback>{testimonial.name.split(' ').map(n => n[0]).join('')}</AvatarFallback>
                 </Avatar>
                 <h3 className="text-lg font-semibold">{testimonial.name}</h3>
