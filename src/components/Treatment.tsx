@@ -40,13 +40,13 @@ const Treatment = () => {
   return (
     <section id="treatment" className="w-full py-12 md:py-24 lg:py-32 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+        <div className="text-center mb-12 opacity-0 animate-fade-in-up">
           <h2 className="text-3xl md:text-4xl font-bold">Our Treatments</h2>
           <p className="text-muted-foreground mt-2">Providing a wide range of dental services for all your needs.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {treatments.map((treatment) => (
-            <Card key={treatment.title}>
+          {treatments.map((treatment, index) => (
+            <Card key={treatment.title} className="opacity-0 animate-fade-in-up" style={{ animationDelay: `${index * 150}ms` }}>
               <CardHeader className="flex flex-row items-center gap-4">
                 {treatment.icon}
                 <CardTitle>{treatment.title}</CardTitle>
