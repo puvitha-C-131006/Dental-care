@@ -7,8 +7,8 @@ const Hero = () => {
       id="home"
       className="w-full py-20 md:py-32 lg:py-40 bg-background"
     >
-      <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center px-4">
-        <div className="space-y-6 text-center md:text-left opacity-0 animate-fade-in-up">
+      <div className="container mx-auto flex flex-col items-center px-4">
+        <div className="space-y-6 text-center opacity-0 animate-fade-in-up max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight font-serif text-gray-900">
             Poonguzhali Dental Speciality Care
           </h1>
@@ -23,13 +23,6 @@ const Hero = () => {
               <Link to="/contact">Book an Appointment</Link>
             </Button>
           </div>
-        </div>
-        <div className="flex justify-center opacity-0 animate-fade-in-up [animation-delay:200ms]">
-          <img
-            src="/dental.jpg"
-            alt="Modern dental clinic illustration"
-            className="rounded-lg w-full max-w-md animate-slow-float"
-          />
         </div>
       </div>
     </section>
