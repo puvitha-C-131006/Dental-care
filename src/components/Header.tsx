@@ -18,7 +18,7 @@ export const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-20 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/dent.jpg" alt="Logo" className="h-16 w-auto" />
+          <img src="/dent.jpg" alt="Logo" className="h-20 w-auto" />
           <span className="font-bold text-lg hidden sm:inline">Poonguzhali Dental Care</span>
         </Link>
         <nav className="hidden md:flex items-center gap-8">
