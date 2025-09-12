@@ -3,7 +3,7 @@ import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+export const Header = () => {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "About", href: "/#about" },
@@ -66,5 +66,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;
