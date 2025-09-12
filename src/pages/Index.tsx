@@ -9,7 +9,7 @@ import Testimonials from "@/components/Testimonials";
 
 const Index = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-background">
+    <div className="flex flex-col min-h-screen bg-gradient-to-b from-background via-secondary/50 to-background">
       <Header />
       <main className="flex-grow">
         <Hero />

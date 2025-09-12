@@ -5,28 +5,21 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full py-20 md:py-32 lg:py-40 bg-background"
+      className="w-full py-20 md:py-32 lg:py-40"
     >
-      <div className="container mx-auto grid md:grid-cols-2 gap-12 items-center px-4">
-        <div className="flex justify-center opacity-0 animate-fade-in-up">
-          <img
-            src="/dent.jpg"
-            alt="Poonguzhali Dental Care Logo"
-            className="rounded-lg w-full max-w-xs md:max-w-sm"
-          />
-        </div>
-        <div className="space-y-6 text-center md:text-left opacity-0 animate-fade-in-up [animation-delay:200ms]">
+      <div className="container mx-auto flex flex-col items-center px-4">
+        <div className="space-y-6 text-center opacity-0 animate-fade-in-up max-w-3xl">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight font-serif text-gray-900">
-            Poonguzhali Dental Speciality Care
+            <span className="text-primary">Poonguzhali Dental Speciality Care</span>
           </h1>
-          <p className="text-xl md:text-2xl text-primary font-semibold">
+          <p className="text-xl md:text-2xl text-muted-foreground italic">
             Your Smile Begins Here
           </p>
-          <p className="text-md text-muted-foreground">
+          <p className="text-md font-semibold text-cyan-800">
             Dr. P. Poonguzhali, BDS., F.F.A.
           </p>
           <div className="pt-4">
-            <Button size="lg" asChild>
+            <Button size="lg" className="rounded-full px-8 py-6 text-lg" asChild>
               <Link to="/contact">Book an Appointment</Link>
             </Button>
           </div>
