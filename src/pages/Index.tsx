@@ -6,13 +6,12 @@ import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
 import Treatment from "@/components/Treatment";
 import Testimonials from "@/components/Testimonials";
-import FloatingLogo from "@/components/FloatingLogo";
 
 const Index = () => {
   return (
-    <div className="flex flex-col min-h-screen bg-gradient-to-b from-background via-secondary/50 to-background">
+    <div className="flex flex-col min-h-screen bg-white"> {/* Changed background to white */}
       <Header />
-      <FloatingLogo />
+      {/* Removed FloatingLogo component */}
       <main className="flex-grow">
         <Hero />
         <About />

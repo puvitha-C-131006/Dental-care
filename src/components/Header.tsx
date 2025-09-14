@@ -8,10 +8,8 @@ export const Header = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/#about" },
     { name: "Services", href: "/#services" },
-    { name: "Treatments", href: "/#treatment" },
-    { name: "Testimonials", href: "/#testimonials" },
-    { name: "Pricing", href: "/#pricing" },
     { name: "Contact", href: "/contact" },
+    { name: "Appointment", href: "/contact" }, // Appointment links to contact page
   ];
 
   return (
