@@ -10,11 +10,11 @@ import ContactPage from "./pages/ContactPage";
 const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <> {/* Added React Fragment here */}
-        <Toaster />
-        <Sonner />
+  <>
+    <Toaster />
+    <Sonner />
+    <QueryClientProvider client={queryClient}>
+      <TooltipProvider>
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Index />} />
@@ -23,9 +23,9 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
-      </> {/* Closed React Fragment here */}
-    </TooltipProvider>
-  </QueryClientProvider>
+      </TooltipProvider>
+    </QueryClientProvider>
+  </>
 );
 
 export default App;
