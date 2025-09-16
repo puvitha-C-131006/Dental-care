@@ -10,18 +10,18 @@ const queryClient = new QueryClient();
 
 const App = () => (
   <BrowserRouter>
-    <QueryClientProvider client={queryClient}>
-      <>
-        <Toaster />
-        <Sonner />
+    <> {/* BrowserRouter expects a single child, so we use a fragment */}
+      <QueryClientProvider client={queryClient}>
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/contact" element={<ContactPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </>
-    </QueryClientProvider>
+      </QueryClientProvider>
+      <Toaster />
+      <Sonner />
+    </>
   </BrowserRouter>
 );
 
