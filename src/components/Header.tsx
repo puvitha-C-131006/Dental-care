@@ -1,30 +1,32 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react";
+import { Menu, Smile } from "lucide-react";
 import { Link } from "react-router-dom";
 
-export const Header = () => {
+const Header = () => {
   const navLinks = [
     { name: "Home", href: "/" },
     { name: "About", href: "/#about" },
-    { name: "Services", href: "/#services" },
+    { name: "Features", href: "/#features" },
+    { name: "Treatments", href: "/#treatment" },
+    { name: "Testimonials", href: "/#testimonials" },
+    { name: "Pricing", href: "/#pricing" },
     { name: "Contact", href: "/contact" },
-    { name: "Appointment", href: "/contact" }, // Appointment links to contact page
   ];
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-20 items-center justify-between">
+      <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/dent.jpg" alt="Logo" className="h-20 w-auto" />
-          <span className="font-bold text-lg hidden sm:inline">Poonguzhali Dental Care</span>
+          <Smile className="h-6 w-6 text-primary" />
+          <span className="font-bold text-lg">Poonguzhali Dental Care</span>
         </Link>
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-6">
           {navLinks.map((link) => (
             <a
               key={link.name}
               href={link.href}
-              className="text-sm font-bold text-muted-foreground transition-colors hover:text-primary"
+              className="text-sm font-medium text-muted-foreground transition-colors hover:text-primary"
             >
               {link.name}
             </a>
@@ -64,3 +66,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;

@@ -31,13 +31,13 @@ const Pricing = () => {
   return (
     <section id="pricing" className="w-full py-12 md:py-24 lg:py-32 bg-muted/40">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-12 opacity-0 animate-fade-in-up">
+        <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold">Transparent Pricing</h2>
           <p className="text-muted-foreground mt-2">Affordable plans for every need.</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {pricingTiers.map((tier, index) => (
-            <Card key={tier.title} className="flex flex-col opacity-0 animate-fade-in-up" style={{ animationDelay: `${index * 150}ms` }}>
+          {pricingTiers.map((tier) => (
+            <Card key={tier.title} className="flex flex-col">
               <CardHeader>
                 <CardTitle>{tier.title}</CardTitle>
                 <CardDescription>{tier.description}</CardDescription>
