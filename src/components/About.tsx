@@ -18,7 +18,7 @@ const About = () => {
             We utilize the latest technology and techniques to ensure that your treatment is efficient, effective, and as painless as possible. Your comfort and satisfaction are our top priorities.
           </p>
           <div className="pt-4">
-            <h3 className="text-xl font-semibold text-foreground">Dr. P. Poonguzhali, BDS., F.F.A.</h3>
+            <h3 className="text-2xl font-serif italic text-foreground">Dr. P. Poonguzhali, BDS., F.F.A.</h3>
             <p className="text-muted-foreground">Lead Dental Specialist</p>
           </div>
         </div>

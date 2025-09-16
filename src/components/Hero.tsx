@@ -14,7 +14,7 @@ const Hero = () => {
         <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-4 opacity-0 animate-fade-in-up [animation-delay:200ms]">
           Your Smile Begins Here
         </p>
-        <p className="max-w-2xl mx-auto text-md text-muted-foreground mb-8 opacity-0 animate-fade-in-up [animation-delay:300ms]">
+        <p className="max-w-2xl mx-auto text-lg font-serif italic text-muted-foreground mb-8 opacity-0 animate-fade-in-up [animation-delay:300ms]">
           Dr. P. Poonguzhali, BDS., F.F.A.
         </p>
         <div className="opacity-0 animate-fade-in-up [animation-delay:400ms]">
