@@ -8,16 +8,21 @@ const Hero = () => {
       className="w-full py-20 md:py-32 lg:py-40 bg-background"
     >
       <div className="container mx-auto text-center px-4 text-foreground">
-        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 opacity-0 animate-fade-in-up text-primary">
+        <img
+          src="/poo.jpg"
+          alt="Poonguzhali Dental Care Logo"
+          className="mx-auto mb-8 w-32 h-32 md:w-48 md:h-48 object-contain opacity-0 animate-fade-in-up"
+        />
+        <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 opacity-0 animate-fade-in-up text-primary [animation-delay:100ms]">
           Poonguzhali Dental Speciality Care
         </h1>
-        <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-4 opacity-0 animate-fade-in-up [animation-delay:100ms]">
+        <p className="max-w-2xl mx-auto text-lg text-muted-foreground mb-4 opacity-0 animate-fade-in-up [animation-delay:200ms]">
           Your Smile Begins Here
         </p>
-        <p className="max-w-2xl mx-auto text-lg font-serif italic text-green-500 mb-8 opacity-0 animate-fade-in-up [animation-delay:200ms]">
+        <p className="max-w-2xl mx-auto text-lg font-serif italic text-green-500 mb-8 opacity-0 animate-fade-in-up [animation-delay:300ms]">
           Dr. P. Poonguzhali, BDS., F.F.A.
         </p>
-        <div className="opacity-0 animate-fade-in-up [animation-delay:300ms]">
+        <div className="opacity-0 animate-fade-in-up [animation-delay:400ms]">
           <Button size="lg" asChild>
             <Link to="/contact">Book an Appointment</Link>
           </Button>
