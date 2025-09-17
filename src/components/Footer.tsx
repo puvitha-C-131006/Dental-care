@@ -9,7 +9,7 @@ const Footer = () => {
             <Smile className="h-6 w-6 text-white" />
             <span className="font-bold text-lg text-white">Poonguzhali Dental Care</span>
           </a>
-          <p className="text-sm">Your smile, our specialty. © {new Date().getFullYear()}</p>
+          <p className="text-sm">@2025 Poonguzhali Dental Care. All rights reserved.</p>
         </div>
         <div>
           <h3 className="font-semibold text-white mb-4">Contact Us</h3>
