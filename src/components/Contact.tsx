@@ -22,6 +22,7 @@ const formSchema = z.object({
   name: z.string().min(2, { message: "Name must be at least 2 characters." }),
   phone: z.string().regex(/^\d{10}$/, { message: "Phone number must be 10 digits." }),
   email: z.string().email({ message: "Invalid email address." }),
+  age: z.coerce.number().min(1, { message: "Age must be at least 1." }).max(120, { message: "Age cannot exceed 120." }),
   date: z.date({ required_error: "A date is required." }),
   time: z.string({ required_error: "A time slot is required." }),
   message: z.string().optional(),
@@ -36,6 +37,7 @@ const Contact = () => {
       name: "",
       phone: "",
       email: "",
+      age: undefined, // Set default to undefined for number input
       date: undefined,
       time: undefined,
       message: "",
@@ -62,6 +64,7 @@ const Contact = () => {
           name: values.name,
           phone: values.phone,
           email: values.email,
+          age: values.age, // Include age in the payload
           date: format(values.date, "PPP"),
           time: values.time,
           message: values.message,
@@ -113,6 +116,13 @@ const Contact = () => {
               <Input id="email" type="email" placeholder="Your Email Address" {...form.register("email")} />
               {form.formState.errors.email && (
                 <p className="text-destructive text-sm">{form.formState.errors.email.message}</p>
+              )}
+            </div>
+            <div className="space-y-2">
+              <Label htmlFor="age">Age</Label>
+              <Input id="age" type="number" placeholder="Your Age" {...form.register("age", { valueAsNumber: true })} />
+              {form.formState.errors.age && (
+                <p className="text-destructive text-sm">{form.formState.errors.age.message}</p>
               )}
             </div>
             <div className="grid sm:grid-cols-2 gap-6">
