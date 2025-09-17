@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu } from "lucide-react"; // Removed Smile icon as it's replaced by the logo
+import { Menu } from "lucide-react";
 import { Link } from "react-router-dom";
 import { ThemeToggle } from "./ThemeToggle";
 
@@ -20,7 +20,7 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/po.jpg" alt="Poonguzhali Dental Care Logo" className="h-8 w-8 object-contain" /> {/* Added logo */}
+          {/* Removed logo image */}
           <span className="font-bold text-lg">Poonguzhali Dental Care</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
