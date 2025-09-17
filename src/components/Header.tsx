@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, Smile } from "lucide-react";
 import { Link } from "react-router-dom";
+import { ThemeToggle } from "./ThemeToggle";
 
 
 const Header = () => {
@@ -37,7 +38,7 @@ const Header = () => {
           <Button asChild>
             <Link to="/contact">Book Appointment</Link>
           </Button>
-          
+          <ThemeToggle />
         </div>
         <div className="md:hidden">
           <Sheet>
@@ -60,6 +61,9 @@ const Header = () => {
                  <Button className="mt-4" asChild>
                     <Link to="/contact">Book Appointment</Link>
                  </Button>
+                 <div className="mt-4">
+                    <ThemeToggle />
+                 </div>
               </nav>
               
             </SheetContent>
