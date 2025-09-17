@@ -8,11 +8,7 @@ const Hero = () => {
       className="w-full py-20 md:py-32 lg:py-40 bg-background"
     >
       <div className="container mx-auto text-center px-4 text-foreground">
-        <img 
-          src="/poo.jpg" 
-          alt="Poonguzhali Dental Care Logo" 
-          className="mx-auto mb-8 h-40 w-40 animate-slow-float"
-        />
+        {/* Removed the image as requested */}
         <h1 className="text-4xl md:text-6xl font-bold tracking-tighter mb-4 opacity-0 animate-fade-in-up text-primary">
           Poonguzhali Dental Speciality Care
         </h1>
