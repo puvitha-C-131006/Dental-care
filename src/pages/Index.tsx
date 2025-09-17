@@ -6,6 +6,7 @@ import Pricing from "@/components/Pricing";
 import Footer from "@/components/Footer";
 import Treatment from "@/components/Treatment";
 import Testimonials from "@/components/Testimonials";
+import AnimateOnScroll from "@/components/AnimateOnScroll"; // Import the new component
 
 const Index = () => {
   return (
@@ -13,11 +14,21 @@ const Index = () => {
       <Header />
       <main className="flex-grow">
         <Hero />
-        <About />
-        <Features />
-        <Treatment />
-        <Testimonials />
-        <Pricing />
+        <AnimateOnScroll delay="100ms">
+          <About />
+        </AnimateOnScroll>
+        <AnimateOnScroll delay="200ms">
+          <Features />
+        </AnimateOnScroll>
+        <AnimateOnScroll delay="300ms">
+          <Treatment />
+        </AnimateOnScroll>
+        <AnimateOnScroll delay="400ms">
+          <Testimonials />
+        </AnimateOnScroll>
+        <AnimateOnScroll delay="500ms">
+          <Pricing />
+        </AnimateOnScroll>
       </main>
       <Footer />
     </div>
